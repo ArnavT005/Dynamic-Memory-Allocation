@@ -6,9 +6,10 @@ public class Driver{
         Scanner sc = new Scanner(System.in);
         numTestCases = sc.nextInt();
         while(numTestCases-- > 0){
-            int size;
+            int size, dict_type;
             size = sc.nextInt();
-            A2DynamicMem obj = new A2DynamicMem(size, 2);
+            dict_type = sc.nextInt();
+            A2DynamicMem obj = new A2DynamicMem(size, dict_type);
             int numCommands = sc.nextInt();
             while(numCommands-->0) {
                 String command;

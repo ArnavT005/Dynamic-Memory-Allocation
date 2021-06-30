@@ -49,7 +49,7 @@ public abstract class Tree extends Dictionary {
     public abstract Tree getNext(); 
 
         // The getFirst and getNext functions are for inorder traversal of the BST. 
-        // The getFirst() returns the first (smallest) element of the BST subtree and null if the sbutree is empty
+        // The getFirst() returns the first (smallest) element of the BST subtree and null if the subtree is empty
         // The getNext() returns the next element after in the inorder traversal of the BST
         // The Unlike the abstract Dictionary class, Tree class traverses the tree according to the inorder traversal, ordered by key
         
