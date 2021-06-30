@@ -6,7 +6,7 @@
 This repository consists of a pdf and a folder at the top-most level: 
  - The pdf document describes the problem statement and code expectations in detail. 
  - The folder *Code* contains all the code that was used in completing the assignment. (Written 100% in `Java`) 
- 
+--- 
 ### How to Run:
 1. Change to *Code* folder.
 2. Open terminal and execute the code: `javac *.java`. This compiles all java files and generates the bytecode.
@@ -19,7 +19,7 @@ This repository consists of a pdf and a folder at the top-most level:
 		- `Free <block_addr>`, where **<block_addr>** is an integer denoting the starting address of the memory block that needs to be deallocated/freed.
 		- `Defragment 0`, to defragment the memory by combining contiguous blocks of *free* memory.
 4. To clean up after a successful run, execute the command: `del *.class` (Windows) or `rm *.class` (Linux/MacOS). This removes all java class files from the directory.
-
+---
 ### Output Format:
 This section describes the output of the Memory Allocator to different input commands:
  - Command Type - *Allocate*. The allocator returns the starting address (int) of the allocated block on successful allocation and **-1** on unsuccessful allocation. Memory addresses start from *0*. The value returned is then printed on the terminal.
