@@ -1,4 +1,4 @@
-# Dynamic Memory Allocation (using Doubly-Linked Lists, Binary Search Trees and AVL Trees)
+# Dynamic Memory Allocation | DLL, BST and AVL Tree
 ## Assignment of course COL106, Fall 2020
 
 ---
